@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<!-- 
+    Comment 
+    Format document: shift + alt + f
+    hold alt: multiple cursor
+    Make sure you understand each and every line for at least a single code
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS GRID</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="mystyle.css"> -->
+
+    <style>
+        /* .itm1 {grid-area: one;}
+        .itm2 {grid-area: two;}
+        .itm3 {grid-area: three;}
+
+        .itm4 {grid-area: four;}
+        .itm5 {grid-area: five;}
+        .itm6 {grid-area: six;}
+
+        .itm7 {grid-area: seven;}
+        .itm8 {grid-area: eight;}
+        .itm9 {grid-area: nine;} */
+
+        .grid-container {
+            display: grid;
+            /* display: inline-grid; */
+            grid-template-columns: auto auto auto;
+            /* grid-template-areas: 
+            'one two three'
+            'four five six'
+            'seven eight nine'; */
+
+            background-color: coral;
+            /* gap: 10px; */
+
+            /* gap: row-gap col-gap */
+            padding: 10px;
+        }
+
+        /* .grid-container>div { */
+            /* background-color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold; */
+        /* } */
+
+        .grid-item {
+            background-color: white;
+            border: 1px solid black;
+            padding: 20px;
+            /* text-align: center; */
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <!-- <div class="itm1">1</div>
+        <div class="itm2">2</div>
+        <div class="itm3">3</div>
+        <div class="itm4">4</div>
+        <div class="itm5">5</div>
+        <div class="itm6">6</div>
+        <div class="itm7">7</div>
+        <div class="itm8">8</div>
+        <div class="itm9">9</div> -->
+
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+    </div>
+</body>
+
+</html>
